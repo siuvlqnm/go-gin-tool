@@ -6,7 +6,7 @@ import (
 	"github.com/unknwon/com"
 )
 
-func GetPage(c *gin.Context) {
+func GetPage(c *gin.Context) int {
 	result := 0
 	page, _ := com.StrTo(c.Query("page")).Int()
 	if page > 0 {
