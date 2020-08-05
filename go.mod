@@ -18,9 +18,9 @@ require (
 )
 
 replace (
-	github.com/siuvlqnm/go-gin-example/conf => /app/go/src/go-gin-example/pkg/conf
-	github.com/siuvlqnm/go-gin-example/middleware => /app/go/src/go-gin-example/middleware
-	github.com/siuvlqnm/go-gin-example/models => /app/go/src/go-gin-example/models
-	github.com/siuvlqnm/go-gin-example/pkg/setting => /app/go/src/go-gin-example/pkg/setting
-	github.com/siuvlqnm/go-gin-example/routers => /app/go/src/go-gin-example/routers
+	github.com/siuvlqnm/go-gin-example/conf => /Users/meat/app/go/src/go-gin-example/pkg/conf
+	github.com/siuvlqnm/go-gin-example/middleware => /Users/meat/app/go/src/go-gin-example/middleware
+	github.com/siuvlqnm/go-gin-example/models => /Users/meat/app/go/src/go-gin-example/models
+	github.com/siuvlqnm/go-gin-example/pkg/setting => /Users/meat/app/go/src/go-gin-example/pkg/setting
+	github.com/siuvlqnm/go-gin-example/routers => /Users/meat/app/go/src/go-gin-example/routers
 )
