@@ -1,6 +1,7 @@
 package v1
 
 import (
+	"log"
 	"net/http"
 
 	"github.com/astaxie/beego/validation"
@@ -31,6 +32,10 @@ func AddTag(c *gin.Context) {
 			models.AddTag(name, state, createdBy)
 		} else {
 			code = e.ERROR_EXIST_TAG
+		}
+	} else {
+		for _, err := range valid.Errors {
+			log.Printf("err.key: %s, err.message: %s", err.Key, err.Message)
 		}
 	}
 
