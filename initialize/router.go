@@ -9,6 +9,8 @@ func Router() {
 	r := gin.Default()
 
 	r.POST("md5", system.Md5Encode)
+	r.POST("hextostr", system.HexToStr)
+	r.POST("strtohex", system.StrToHex)
 
 	r.Run()
 }
