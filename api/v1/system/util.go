@@ -16,9 +16,6 @@ func HexToStr(c *gin.Context) {
 	h := string(c.PostForm("hex"))
 	s := util.HexStr(h)
 	response.OkWithDetailed("hex to str success", s, c)
-	c.JSON(200, gin.H{
-		"message": s,
-	})
 }
 
 func StrToHex(c *gin.Context) {
