@@ -2,7 +2,7 @@ package system
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/siuvlqnm/go-gin-tool/common/response"
+	response "github.com/siuvlqnm/go-gin-tool/common"
 	"github.com/siuvlqnm/go-gin-tool/internal/util"
 )
 
